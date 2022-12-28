@@ -11,7 +11,7 @@ These projects were developed as a part of McGill University's COMP 310 curricul
 Preface: Setting up Docker
 --------------------------
 
-If you're not interested in executing the binaries and simply want read about the projects, feel free to [skip this section](#simple-shell)!
+If you're not interested in executing the binaries and simply want to read about the projects, feel free to [skip this section](#simple-shell)!
 
 For those who are interested, I have included a [docker-compose.yml](docker-compose.yml) file which creates a Linux environment (so you can actually execute the binaries!). Refer to Docker's documentation for setup instructions for your system. Then, use `make run` in the root of this repository to start up the environment!
 
@@ -19,6 +19,8 @@ For those who are interested, I have included a [docker-compose.yml](docker-comp
 
 Simple Shell
 ------------
+
+![Using the simple shell](media/shell.gif)
 
 The first project consists of, well, a simple shell! The project was an excellent exercise in process programming.
 
@@ -62,6 +64,8 @@ $ gcc -pthread libsut prog.c
 
 FUSE Filesystem
 ---------------
+
+![Using the filesystem](media/filesystem.gif)
 
 Perhaps my favourite project, the FUSE filesystem can be mounted by the user under any (single) directory. Of course, this is a very simplified filesystem with many restrictions such as no subdirectories, no file protection, and limited filenames, but nonetheless, it is a very interesting endeavour.
 
