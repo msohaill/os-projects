@@ -6,4 +6,6 @@ services:
     build:
       dockerfile: Dockerfile
     volumes:
-      - ./:/projects/
+      - ./shell:/projects/shell
+      - ./scheduler:/projects/scheduler
+      - ./filesystem:/projects/filesystem
